@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template 3</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      ul {
+        width: 90%;
+        list-style-type: none;
+        position: relative;
+        
+        background: white;
+      }
+      ul > li {
+        display: inline;
+        padding: 10px;
+         top: 0px;
+        height: 20px;
+        font-family: "Times New Roman", Georgia, serif;
+        font-size: 20px;
+      }
+
+      div#img {
+        background-image: url(hamburger.jpg);
+        width: 100%;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 40px;
+        font-family: "Times New Roman", Georgia, Times, serif;
+        letter-spacing: 4px;
+        word-spacing: 5px;
+        padding: 15px;
+        color: rgba(20, 19, 19, 0.973);
+        position: relative;
+      }
+      div#main {
+        width: 70%;
+        margin: auto;
+        display: grid;
+        padding-top: 70px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 650px);
+        grid-column-gap: 20px;
+        grid-row-gap: 100px;
+      }
+      .box1 {
+        background: blueviolet;
+      }
+      .box2 {
+        background: white;
+      }
+      .box3 {
+        background: white;
+      }
+      .box4 {
+        background: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <ul>
+      <li>Gourment au Catering</li>
+      <li>About</li>
+      <li>Menu</li>
+      <li>Contact</li>
+    </ul>
+    <div id="img">Le Catering</div>
+    <br />
+    <div id="main">
+      <div class="box1">
+        <img
+          src="tablesetting2.jpg"
+          style="width: 530px; height: 650px"
+        />
+      </div>
+      <div class="box2">
+        <h1 style="text-align: center; font-size: 35px">About</h1>
+        <div style="text-align: center; letter-spacing: 4px; font-size: 18px">
+          Traditional since 1899
+        </div>
+        <p
+          style="
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            font-family: 'Times New Roman', Georgia, Times, serif;
+            color: black;
+            font-size: 18px;
+          "
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+          veritatis mollitia iusto reprehenderit aliquid distinctio, minus fugit
+          maxime quod, ducimus et quisquam? Repudiandae illum odio laboriosam
+          amet labore, quia sed? Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Quaerat praesentium iure dolorem minima repellat!
+          Placeat ipsam a esse! Quos vero perferendis asperiores necessitatibus
+          minima repellendus, optio ullam iste ad ipsum.
+        </p>
+
+        <p
+          style="
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            font-family: 'Times New Roman', Georgia, Times, serif;
+            color: rgb(92, 90, 90);
+            font-size: 18px;
+          "
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nemo
+          beatae quidem aliquid fugit nostrum ut laboriosam, aliquam neque
+          officia nobis debitis quam consequatur corporis vel molestias culpa
+          impedit <minus class="lorem"></minus>
+        </p>
+      </div>
+      <div class="box3">
+        <h1
+          style="
+            text-align: center;
+            letter-spacing: 4px;
+            word-spacing: 10px;
+            font-family: 'Times New Roman', Georgia, Times, serif;
+          "
+        >
+          Our Menu
+        </h1>
+        <h3 style="font-weight: 550; color: black">Bread Basket</h3>
+        Assortment of fresh baked fruit breads and muffins 5.50
+        <br />
+        <br />
+        <h3 style="font-weight: 550; color: black">
+          Honey Almond Granola with Fruits
+        </h3>
+        Natural cereal of honey toasted oats, raisins,almonds and dates 7.00
+        <br />
+        <br />
+        <h3 style="font-weight: 550; color: black">Belgian Waffle</h3>
+        Vanilla flavored batter with malted flour 7.50
+        <br />
+        <br />
+
+        <h3 style="font-weight: 550; color: black">scrambled eggs</h3>
+        Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+        <br />
+        <br />
+        <h3 style="font-weight: 550; color: black">Blueberry Pancakes</h3>
+        With syrup, butter and lots of berries 8.50
+      </div>
+      <div class="box4">
+        <img
+          src="tablesetting.jpg"
+          style="width: 530px; height: 650px"
+        />
+      </div>
+    </div>
+    <hr>
+    <div style="width: 70%; margin:auto;" >
+    <h1 style="letter-spacing: 2px;">Contact</h1>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iusto consequatur, unde nisi obcaecati neque tenetur ducimus ratione soluta minus, veritatis repellat laboriosam? Provident quis recusandae nisi assumenda, sit minus.<br>
+    <div style="color: rgb(69, 129, 241); font-size: 20px; margin-top:10px ;">Catering Service, 42nd Living St, 43043 New York, NY</div><br>
+    You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:<br>
+    
+    <input placeholder="Name" type="text" id="name" name="name" style="width: 70%;padding: 10px; margin: 18px; border: none; border-bottom: 1px solid grey;"><br>
+    <input placeholder="How many people?" type="number" id="people" name="people" style="width: 70%; padding: 10px; margin: 18px; border: none; border-bottom: 1px solid grey;"><br>
+    <input placeholder="16-11-2020 02:00" type="datetime-local" id="datetime" name="datetime" style="width: 70%; padding: 10px; margin: 18px; border: none; border-bottom: 1px solid grey;"><br>
+    <input placeholder="Message and Special requirements" type="text" id="Message" name="Message" style="width: 70%; padding: 10px; margin: 18px; border: none; border-bottom: 1px solid grey;"><br>
+    <button type="submit" style="border: none; width: 200px;margin: 10px; height:34px; letter-spacing: 2px; background: rgb(225, 225, 235); ">SEND MESSAGE</button>
+    
+</div>
+  </body>
+</html>
